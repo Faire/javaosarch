@@ -1,0 +1,9 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'javaosarch.JavaOsArch'
+
+jar {
+    archiveBaseName = 'javaosarch'
+    archiveVersion =  '1.0'
+}
